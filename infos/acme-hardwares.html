@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ACME Hardware</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="../images/anvil.png" type="image/gif" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="../styles.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-expand-sm navbar-dark bg-dark fixed-top">
+		<a href="../index.html" class="navbar-brand">
+			<img src="../images/anvil.png" width="30" height="30" alt="anvil">Acme Laboratories
+		</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarContent">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+				    <a class="nav-item nav-link dropdown-toggle" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contents</a>
+				    	<div class="dropdown-menu dropdown-menu-left" aria-labelledby="bd-versions">
+					        <a class="dropdown-item" href="../contents/canvas-maker.html">Canvas Maker</a>
+					        <a class="dropdown-item" href="../contents/comments.html">Comments Weblet</a>
+					        <a class="dropdown-item" href="../contents/freeware-library.html">Freeware Library</a>
+					        <a class="dropdown-item" href="../contents/updates.html">Updates</a>
+					        <a class="dropdown-item" href="../contents/web-apis.html">Web APIs</a>
+						</div>
+				</li>
+				<li class="nav-item">
+					<a href="../contents/jef.html" class="nav-link">Personal Page</a>
+				</li>
+				<li class="nav-item">
+					<a href="../acme-means.html" class="nav-link">About</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto navbar-expand-sm">
+				<li class="mr-3 text-light">Follow Us</li>
+				<li>
+					<a class="fb" href="https://facebook.com" target="_blank">
+						<img src="../images/facebook-new.png" width="20" height="20">
+					</a>
+					<a href="https://twitter.com" target="_blank">
+						<img src="../images/twitter.png" width="25" height="25">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<main>
+		<img src="../images/hardware.png" class="w-100">
+		<div class="container-fluid pr-2 pl-5 pt-1 pb-1 bg-success"></div>
+		
+		<div class="text-center pt-4 pb-5">
+			<h1>acme.com's Hardware</h1>
+			<p>ACME is currently running on a nifty 8-core Atom C2750 machine that I built myself. The C2750 was introduced in late 2013 and got a lot of attention from folks like me. It's very low-power, to the point where it doesn't even need a CPU fan so it's nice and quiet. But the eight 64-bit 2.4 GHz cores still give it a lot of oomph.</p>
+		</div>
+
+		<div class="container mb-5">
+			<h4 class="pb-4">Here are the build specs:</h4>
+			<ul class="shadow-lg list-group">
+			  <li class="list-group-item"><strong>motherboard:</strong> SuperMicro A1SAi-2750F Mini-ITX (CPU included)</li>
+			  <li class="list-group-item"><strong>case:</strong> Ablecom CS-M50 / SuperChassis 721TQ-250B (PSU & case fan included)</li>
+			  <li class="list-group-item"><strong>memory: </strong>2x Kingston 8GB DDR3 1600MHz ECC unbuffered SO-DIMM 204-pin</li>
+			  <li class="list-group-item"><strong>boot&swap drive:</strong> 80GB intel DC S3500 2.5" SSD</li>
+			  <li class="list-group-item"><strong>storage drives:</strong> 4x Western Digital Red 3TB 3.5" HDD</li>
+			</ul>
+		</div>
+		<div class="container">
+			<h4 class="pb-4 pt-4">The evolution of ACME's hardware:</h4>
+		</div>
+		<div class="container mb-5">
+			<table class="table table-responsive">
+				  <thead class="thead-light">
+				    <tr>
+				      <th scope="col">name</th>
+				      <th scope="col">when</th>
+				      <th scope="col">type</th>
+				      <th scope="col">CPU</th>
+				      <th scope="col">memory</th>
+				      <th scope="col">disk</th>
+				      <th scope="col">OS</th>
+				      <th scope="col">cost</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">hydra</th>
+				      <td>06Feb2015 - ?</td>
+				      <td>home built</td>
+				      <td>8-core 2.4 GHz Atom C2750</td>
+				      <td>16 GB</td>
+				      <td>5.1 TB</td>
+				      <td>FreeBSD 10.1</td>
+				      <td>$1370</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">safe</th>
+				      <td>01May2004 - 06Feb2015</td>
+				      <td>Fine Tec Computer</td>
+				      <td>3.2 GHz Pentium IV</td>
+				      <td>2 GB</td>
+				      <td>200 GB</td>
+				      <td>FreeBSD 4.9</td>
+				      <td>$1689</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">pill</th>
+				      <td>17Mar2004 - 01May2004</td>
+				      <td>Packard-Bell</td>
+				      <td>450 MHz Pentium II</td>
+				      <td>160 MB</td>
+				      <td>60 GB</td>
+				      <td>FreeBSD 4.5</td>
+				      <td>$?</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">bomb</th>
+				      <td>25Nov1999 - 17Mar2004</td>
+				      <td>ACME Microsystems</td>
+				      <td>450 MHz K6-2</td>
+				      <td>64 MB</td>
+				      <td>8 GB</td>
+				      <td>FreeBSD 3.3</td>
+				      <td>$665</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">best</th>
+				      <td>03Nov1995 - 25Nov1999</td>
+				      <td>Best.com shared server</td>
+				      <td>200 MHz Pentium Pro</td>
+				      <td>?</td>
+				      <td>70 MB</td>
+				      <td>FreeBSD 2.2.8</td>
+				      <td>$50/month</td>
+				    </tr>
+				    <tr>
+				      <th scope="row">anvil</th>
+				      <td>17Apr1991 - 03Nov1995</td>
+				      <td>Sun 3/50</td>
+				      <td>16 MHz MC68020</td>
+				      <td>4 MB</td>
+				      <td>1 GB</td>
+				      <td>SunOS 4.1</td>
+				      <td>$1950</td>
+				    </tr>
+				  </tbody>
+				</table>
+		</div>
+	</main>
+
+	<div class="container-fluid pr-2 pl-5 pt-1 pb-1 bg-success"></div>
+		<div class="footer">
+			<footer class="page-footer font-small pt-4">
+			  <div class="container-fluid text-center text-md-left">
+			    <div class="row">
+			      <div class="col-md-6 mt-md-0 mt-3">
+			        <h5 class="text-uppercase">ACME Laboratories</h5>
+			        Note: the only affiliation between ACME Laboratories and Warner Brothers is that I've been a fan of Wile E. Coyote for decades.
+			      </div>
+			      <hr class="clearfix w-100 d-md-none pb-3">
+			      <div class="footer-links">
+					  	<div>
+					        <h5 class="text-uppercase">Links</h5>
+
+					        <ul class="list-unstyled">
+					          <li>
+					            <a href="../infos/acme-hardwares.html">ACME Hardware</a>
+					          </li>
+					          <li>
+				            <a href="infos/privacy.html">Privacy Policy</a>
+				          </li>
+					          <li>
+					            <p>Call Us: 453-485-688</p>
+					          </li>
+					        </ul>
+					    </div>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="footer-copyright text-center py-3"> ACME Labs Webmaster
+			    	<a href="mailto:webmaster@mail.acme.com"> webmaster@mail.acme.com</a>
+			  </div>
+		</footer>
+	</div>
+
+</body>
+</html>

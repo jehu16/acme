@@ -1,0 +1,119 @@
+body {
+	width: 100%;
+	font-family: helvetica;
+}
+
+main {
+	margin-top: 50px;
+}
+
+.fb {
+	padding-right: 10px;
+}
+
+.h1-updates {
+	color: black;
+	position: relative;
+	padding-top: 100px;
+}
+
+@media (max-width: 600px){
+	.bd-example {
+		padding-top: 60px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+  .carousel-indicators {
+    display: none;
+  }
+  h1 {
+  	position: relative;
+  	top: 5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+	.footer-links {
+		width: 100%;
+	}
+}
+
+div > a > h1 {
+	color: white;
+}
+
+div > a > p {
+	color: white;
+}
+
+div > a > h1:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+div > a:hover {
+	text-decoration: none;
+}
+
+.img {
+	object-fit: cover;
+	width: 337px;
+ 	height: 337px;
+}
+
+.img2 {
+	object-fit: cover;
+ 	height: 500px;
+
+}
+
+@media screen and (max-width: 600px){
+	
+	.img {
+		object-fit: cover;
+		width: 223px;
+	 	height: 223px;
+	}
+
+	.img2 {
+		object-fit: cover;
+ 		height: 200px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+
+	.changefont {
+		font-size: 12px
+	}
+}
+
+.spacewar {
+	font-family: fantasy;
+	font-style: italic;
+	font-size: 6em;
+}
+
+.spacewardesc {
+	font-family: impact;
+}
+
+.footer {
+	background-color: black;
+	opacity: 80%;
+}
+
+footer > div > div > div > h5 {
+	color: white;
+}
+
+footer > div > div > div {
+	color: white;
+}
+
+footer > div {
+	color: white;
+}
+
